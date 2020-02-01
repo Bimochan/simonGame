@@ -74,7 +74,7 @@ function checkAnswer(currentLevel) {
     if (gamePattern.length == userClickedPattern.length){
       setTimeout(function(){
         nextSequence()
-      },1000);
+      },100);
     }
   }else{
     playSound("wrong");
