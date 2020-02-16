@@ -92,3 +92,9 @@ function startOver() {
   gamePattern = [];
   once = false;
 }
+
+
+function gameInfo(){
+  var info = "lkasflkasöj askdfjaslödkf kasdj lasdfkasj alskgjaslkgjalsk asdlf aölskdj";
+  alert ("This is a Memory game.Each button have a each color. In the first level, a button will be blinked and you have to click that button to promoto yourself to a next level. And in the next level, you have to click the button from the all the previous level and the button that blinked just now. And so on till you click the wrong button and GAME OVER!!"  );
+}
